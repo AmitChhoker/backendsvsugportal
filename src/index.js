@@ -9,6 +9,8 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
+const authRoutes = require('./routes/userAuth');
+
 // Import Models
 const { User } = require('./models/user');
 const Teacher = require('./models/teacher');
