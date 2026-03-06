@@ -3,9 +3,7 @@ const router = express.Router();
 const { 
     studentRegister, 
     teacherLogin, 
-    login, 
-    logout, 
-    getProfile, 
+    login,  
     registerTeacher,
     registerHOD,
     registerDean,
@@ -59,9 +57,9 @@ router.put('/api/auth/update-password/hod', updatePasswordHOD);
 router.put('/api/auth/update-password/dean', updatePasswordDean);
 
 // Logout
-router.post('/logout', logout);
+// router.post('/logout', logout);
 
 // Get profile
-router.get('/profile', getProfile);
+// router.get('/profile', getProfile);
 
 module.exports = router;

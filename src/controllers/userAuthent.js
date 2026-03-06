@@ -648,18 +648,11 @@ module.exports = {
     teacherLogin,
     hodLogin,
     deanLogin,
-    logout,
-    getProfile,
+ 
     registerTeacher,
     registerHOD,
     registerDean,
-    getAllTeachers,
-    getAllStudents,
-    getAllHODs,
-    getDashboardStats,
-    updatePasswordTeacher,
-    updatePasswordHOD,
-    updatePasswordDean,
+   
     verifyToken, // Add the new verifyToken function
     generateToken // Export for testing if needed
 };
