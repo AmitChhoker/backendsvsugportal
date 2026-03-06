@@ -9,7 +9,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
-const authRoutes = require('./routes/userAuth');
+const authRoutes = require('./controllers/userAuthent');
 
 // Import Models
 const { User } = require('./models/user');
