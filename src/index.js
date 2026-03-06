@@ -20,6 +20,10 @@ require('./cron');
 
 // Middleware
 app.use(express.json());
+app.use("/api", authRoutes);
+app.get("/", (req, res) => {
+  res.send("SVSU Grievance Portal Backend Running 🚀");
+});
 app.use(cors({
     origin: 'http://localhost:3000',
     credentials: true
